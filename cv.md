@@ -9,6 +9,8 @@ title: Alexander Shabanovich's CV
 | <a href="https://shalick.github.io/portfolio">My portfolio page</a>
 </div>
 
+## Contact
+phone number and telegram: +37529 3072890
 
 ## Currently
 
