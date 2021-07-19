@@ -1,1 +1,1 @@
-https://shalick.github.io/rsschool-cv/cv
+https://shalick.github.io/rsschool-cv/
