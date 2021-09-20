@@ -212,6 +212,10 @@ section + section {
   width: 50px;
 }
 
+.project p {
+  font-size: 12px;
+}
+
 .language img {
   height: 25px;
   width: 25px;
