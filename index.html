@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Shabanovich</title>
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
   <body>
     <div class="container">
@@ -16,46 +24,39 @@
       <main>
         <div class="main-container">
           <div class="left-side">
-            <section class="profile">
+            <section class="avatar">
               <img src="images/avatar.jpg" alt="avatar" class="avatar" />
             </section>
             <section class="contacts">
               <h2 class="section-title">Contacts</h2>
               <ul>
                 <li>
-                  <img src="./images/phone.png" alt="phone" /><h5>+37529 3072890</h5>
+                  <img src="./images/phone.png" alt="phone" />
+                  <h5>+37529 3072890</h5>
                 </li>
-                <li><a href="mailto:alikshabanovich@gmail.com">
-                  <img
-                    src="./images/gmail.png"
-                    alt="gmail"
-                  /><h5>alikshabanovich@gmail.com</h5>
-                </a>
+                <li>
+                  <a href="mailto:alikshabanovich@gmail.com">
+                    <img src="./images/gmail.png" alt="gmail" />
+                    <h5>alikshabanovich@gmail.com</h5>
+                  </a>
                 </li>
                 <li>
                   <a href="https://t.me/shalick"
-                    ><img
-                      src="./images/telegram1.png"
-                      alt="Telegram"
-                    /><h5>@shalick</h5></a
+                    ><img src="./images/telegram1.png" alt="Telegram" />
+                    <h5>@shalick</h5></a
                   >
                 </li>
                 <li>
                   <a
                     href="https://www.linkedin.com/in/alexander-shabanovich-07668a89"
-                    ><img
-                      src="./images/linkedin1.png"
-                      alt="LinkedIn"
-                    /><h5>Alexander Shabanovich</h5></a
+                    ><img src="./images/linkedin1.png" alt="LinkedIn" />
+                    <h5>Alexander Shabanovich</h5></a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://shalick.github.io/portfolio/"
-                    ><img
-                      src="./images/portfolio.png"
-                      alt="Portfolio"
-                    /><h5>shalick.github.io/portfolio</h5></a
+                  <a href="https://shalick.github.io/portfolio/"
+                    ><img src="./images/portfolio.png" alt="Portfolio" />
+                    <h5>shalick.github.io/portfolio</h5></a
                   >
                 </li>
               </ul>
@@ -84,8 +85,11 @@
           <div class="right-side">
             <section class="about">
               <h2 class="section-title">About</h2>
-              <p>A software programmer who is looking for a start of his career as frontend developer. After quite long time I am still struggling 
-                with entering in IT sphere. Now I hope to learn frontend technologies better and to get a job in Epam. 
+              <p>
+                A software programmer who is looking for a start of his career
+                as frontend developer. After quite long time I am still
+                struggling with entering in IT sphere. Now I hope to learn
+                frontend technologies better and to get a job in Epam.
               </p>
             </section>
             <!-- <section>
@@ -121,6 +125,7 @@
                     </h4>
                     <h5>2012 - 2016</h5>
                   </div>
+                </div>
               </div>
             </section>
             <section>
@@ -133,11 +138,31 @@
             <section class="skills">
               <h2 class="section-title">Skills</h2>
               <ul class="skills-list">
-                <li class="skill"><img src="./images/js.png" alt="JavaScript"/><h4>JavaScript</h4><div class="percent"><div style="width: 85%;"></div></li>
-                <li class="skill"><img src="./images/html5.png" alt="HTML"/><h4>HTML</h4><div class="percent"><div style="width: 75%;"></div></li>
-                <li class="skill"><img src="./images/css3.png" alt="CSS"/><h4>CSS</h4><div class="percent"><div style="width: 75%;"></div></li>
-                <li class="skill"><img src="./images/react.png" alt="React"/><h4>React</h4><div class="percent"><div style="width: 65%;"></div></li>
-                <li class="skill"><img src="./images/git.png" alt="Git"/><h4>Git</h4><div class="percent"><div style="width: 75%;"></div></li>
+                <li class="skill">
+                  <img src="./images/js.png" alt="JavaScript" />
+                  <h4>JavaScript</h4>
+                  <div class="percent"><div style="width: 85%"></div></div>
+                </li>
+                <li class="skill">
+                  <img src="./images/html5.png" alt="HTML" />
+                  <h4>HTML</h4>
+                  <div class="percent"><div style="width: 75%"></div></div>
+                </li>
+                <li class="skill">
+                  <img src="./images/css3.png" alt="CSS" />
+                  <h4>CSS</h4>
+                  <div class="percent"><div style="width: 75%"></div></div>
+                </li>
+                <li class="skill">
+                  <img src="./images/react.png" alt="React" />
+                  <h4>React</h4>
+                  <div class="percent"><div style="width: 65%"></div></div>
+                </li>
+                <li class="skill">
+                  <img src="./images/git.png" alt="Git" />
+                  <h4>Git</h4>
+                  <div class="percent"><div style="width: 75%"></div></div>
+                </li>
               </ul>
             </section>
             <section>
@@ -146,29 +171,26 @@
                 <div class="project">
                   <a
                     href="https://rolling-scopes-school.github.io/shalick-JSFEPRESCHOOL/custom-video-player/"
-                    ><img
-                      src="./images/player.png"
-                      alt="Video player"
-                    /><h5>Video player</h5></a
-                  ></div>
+                    ><img src="./images/player.png" alt="Video player" />
+                    <h5>Video player</h5></a
+                  >
+                </div>
                 <div class="project">
                   <a
                     href="
                     https://rolling-scopes-school.github.io/shalick-JSFEPRESCHOOL/js-clock/"
-                    ><img
-                      src="./images/clock.jpg"
-                      alt="Clock"
-                    /><h5>Clock</h5></a
-                  ></div>
+                    ><img src="./images/clock.jpg" alt="Clock" />
+                    <h5>Clock</h5></a
+                  >
+                </div>
                 <div class="project">
                   <a
                     href="
                     https://rolling-scopes-school.github.io/shalick-JSFEPRESCHOOL/museum/"
-                    ><img
-                      src="./images/museum.jpeg"
-                      alt="Museum"
-                    /><h5>Museum</h5></a
-                  ></div>
+                    ><img src="./images/museum.jpeg" alt="Museum" />
+                    <h5>Museum</h5></a
+                  >
+                </div>
               </div>
             </section>
           </div>
