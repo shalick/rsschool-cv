@@ -112,8 +112,12 @@ section + section {
   width: 50%;
   height: 175px;
   width: 175px;
-  border-radius: 50%;
+  border-radius: 67% 33% 29% 71% / 73% 43% 57% 27% ;
   margin-bottom: 1.25rem;
+}
+
+.about p {
+  font-style: italic;
 }
 
 .education-container {
@@ -156,11 +160,17 @@ section + section {
 
 .education-data h4 {
   text-decoration: none;
+  padding-left: 15px;
+  font-style: italic;
 }
 
 .education-data h5 {
   text-decoration: none;
   font-style: italic;
+}
+
+.courses li {
+  padding-left: 35px;
 }
 
 .skills-list {
