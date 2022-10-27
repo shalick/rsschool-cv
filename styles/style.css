@@ -1,0 +1,282 @@
+@font-face {
+  font-family: MagicOwl;
+  src: url(.fonts/magic-owl-font/MagicOwlPersonalUse-WyO0O.otf);
+}
+
+@font-face {
+  font-family: handy-quomte-font;
+  src: url(.fonts/handy-quomte-font/HandyQuomteRegular-6YLLo.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+html {
+  color: #222;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #deb887;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.section-title {
+  text-transform: uppercase;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 1rem 0;
+  margin-bottom: 1.25rem;
+  font-style: italic;
+  letter-spacing: 0.1em;
+}
+h3 {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contacts li {
+  height: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.contacts li a {
+  height: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.contacts li h5 {
+  margin-left: 7px;
+}
+
+section + section {
+  margin-top: 1.25rem;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 820px;
+  background: whitesmoke;
+  box-shadow: 0 35px 55px rgba(31, 28, 28, 0.1);
+}
+
+.container .main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.container .main-container .left-side {
+  position: relative;
+  background: whitesmoke;
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container .main-container .right-side {
+  position: relative;
+  background: whitesmoke;
+  padding: 40px;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 175px;
+  width: 175px;
+  border-radius: 67% 33% 29% 71% / 73% 43% 57% 27% ;
+  margin-bottom: 1.25rem;
+}
+
+.name {
+  text-align: center;
+}
+
+.name h1 {
+  font-family: MagicOwl;
+  letter-spacing: 0.2em;
+}
+
+.name h2 {
+  font-family: handy-quomte-font;
+  letter-spacing: 0.1em;
+}
+
+.about p {
+  font-style: italic;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.education-content {
+  display: flex;
+}
+
+.education-time {
+  padding-right: 1rem;
+}
+
+.education-rounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #d2691e;
+  border-radius: 50%;
+  margin-top: 0.25rem;
+}
+
+.education-line {
+  display: block;
+  width: 2px;
+  height: 110%;
+  background-color: #d2691e;
+  transform: translate(7px, 0);
+}
+
+.education-data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.education-data h4 {
+  text-decoration: none;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+.education-data h5 {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.courses li {
+  padding-left: 35px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.skills .skill {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50px 0.7fr 2fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .skill .percent {
+  position: relative;
+  width: 80%;
+  height: 15px;
+  background: grey;
+}
+
+.skills .skill .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #d2691e;
+}
+
+.skill h4 {
+  font-style: italic;
+  list-style-type: none;
+}
+
+.skill img {
+  height: 30px;
+  width: 30px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project img {
+  height: 50px;
+  width: 50px;
+}
+
+.project p {
+  font-size: 12px;
+}
+
+.language img {
+  height: 25px;
+  width: 25px;
+}
+
+.footer {
+  /* border-top: 2px solid blue; */
+  /* width: 80%; */
+  border-top: 1px solid #888;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 40px;
+}
+.year {
+  margin-left: 70px;
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+}
+.year h4 {
+  font-family: handy-quomte-font;
+}
+.git {
+  margin-left: 150px;
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+}
